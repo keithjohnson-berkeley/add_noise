@@ -5,7 +5,7 @@ In a nutshell:
 
  ```x,sr = add_noise(signal_name, "pink", snr = snr) ```
 
-* signal_name = the name of a sound file (
+* signal_name = the name of a sound file
   *  Mono files only
   *  will be converted to 22050 Hz sampling
 *  noise_type = 'pink','white','brown', or the name of a noise soundfile.
@@ -14,8 +14,8 @@ In a nutshell:
 *  snr = signal to noise ratio
 *  target_amp = peak amplitude of the result (default is -2 dB from maximum).
 *  results:  
-  *  x = audio buffer with noise added (use soundfile.write() [for example] to write as a file.
-  *  sr = sampling rate of the sound in the x buffer
+    *  x = audio buffer with noise added (use soundfile.write() [for example] to write as a file.
+    *  sr = sampling rate of the sound in the x buffer
 
 ### Dependencies:
 
